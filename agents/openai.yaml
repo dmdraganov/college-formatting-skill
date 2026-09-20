@@ -1,0 +1,14 @@
+interface:
+  display_name: Оформление документов колледжа
+  short_description: Форматирование Word по правилам колледжа
+  default_prompt: Используй $college-word-docs, чтобы оформить этот документ Word
+    по правилам колледжа.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
